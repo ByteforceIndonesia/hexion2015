@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1280px" height="800px" viewBox="0 0 1280 800" enable-background="new 0 0 1280 800" xml:space="preserve">
+<pattern  width="14.833" height="14.833" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="15.333 -30.167 14.833 14.833" overflow="visible">
+	<g>
+		<polygon fill="none" points="15.333,-30.167 30.166,-30.167 30.166,-15.333 15.333,-15.333 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="44.999,-0.5 30.166,-0.5 30.166,-15.333 44.999,-15.333 		
+			"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="30.166,-0.5 15.333,-0.5 15.333,-15.333 30.166,-15.333 		
+			"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="15.333,-0.5 0.5,-0.5 0.5,-15.333 15.333,-15.333 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="44.999,-15.333 30.166,-15.333 30.166,-30.167 
+			44.999,-30.167 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="30.166,-15.333 15.333,-15.333 15.333,-30.167 
+			30.166,-30.167 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="15.333,-15.333 0.5,-15.333 0.5,-30.167 15.333,-30.167 		
+			"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="44.999,-30.167 30.166,-30.167 30.166,-45 44.999,-45 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="30.166,-30.167 15.333,-30.167 15.333,-45 30.166,-45 		"/>
+		<polygon fill="none" stroke="#A3E096" stroke-miterlimit="10" points="15.333,-30.167 0.5,-30.167 0.5,-45 15.333,-45 		"/>
+	</g>
+</pattern>
+<rect x="0.5" y="0.5" opacity="0.25" fill="url(#New_Pattern)" stroke="url(#New_Pattern)" stroke-miterlimit="10" width="1280" height="800"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

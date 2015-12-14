@@ -1,0 +1,301 @@
+body {
+		margin : 0px;
+	}
+	@font-face{
+		font-family :bebas ;
+		src : url(../font/bebas.ttf);
+	}
+
+
+	.emblem{
+		width : 420px;
+		float : left;
+		position: relative;
+
+	}
+
+	.homeCenterBox .wrapperC .emblem:hover + .fixBg1{
+		background-color : red;
+		opacity : 0;
+	}
+
+	@keyframes blink{
+		0%{opacity : 0.5}
+		50%{opacity : 1}
+		100%{opacity : 0.5}
+	}
+
+
+	.homeCenterBox {
+		position: relative;
+		margin-left: 50%;
+		margin-top : 80px;
+		z-index: 10;
+	}
+
+	.project1{
+		background-color : transparent;
+		background-image : url(../img/buttonBg.svg);
+		background-size: contain ;
+		background-repeat :none;
+		position : relative;
+		float : left;
+		width : 180px;
+		height : 39px;
+		color : white;
+		font-family : bebas;
+		padding-top : 16px;
+		letter-spacing: 0.15em;
+		margin-top : 180px;
+		font-size : 1em;
+		animation-name: blink;
+		animation-duration:2.5s;
+		animation-iteration-count : infinite;
+		animation-timing-function : linear;
+	}
+	.bigLine{
+		background-color : white;
+		width : 120px;
+		height : 16px;
+		float : left;
+		margin-top : 4px;
+		margin-left : 6px;
+	}
+	.wrapperC{
+		margin-left : -440px;
+		position : relative;
+		float : left;
+	}
+	.pleft {
+		margin-right : 50px;
+	}
+	.pright {
+		margin-left : 50px;
+	}
+
+	.footerHome{
+		color : white;
+		position :absolute;
+		bottom : 25px;
+		width : 960px;
+		margin-left : -480px;
+		left : 50%;
+		z-index : 21;
+		margin-top:-5em;
+	}
+
+	.footerHome a {
+
+		color : white;
+		font-family: sans-serif;
+		text-decoration: none;
+		margin-right : 12px;
+		margin-left : 12px;
+	}
+	.first{
+		margin-left: 0px;
+	}
+
+	.footerHome a:hover {
+		color : lightgreen;
+		font-family: sans-serif;
+		text-decoration: none;
+	}
+
+	.fixArea1{
+		width : 460px;
+		height : 420px;
+		background-color : white;
+		position : fixed;
+		z-index : 20;
+		left : 50%;
+		opacity : 0;
+		margin-left : -230px;
+	}
+	#fixArea1:hover + #fixBg1{
+		opacity : 0.3;
+	}
+	.fixBg1a{
+		position : fixed;
+		width : 100%;
+		height : 100%;
+		background-color : transparent;
+		top : 0px;
+		background-image :url(../img/hbg1.svg);
+		z-index:1;
+		transition : opacity 1s;
+	}
+	.fixBg0a{
+		position : fixed;
+		width : 100%;
+		height : 100%;
+		background-color : transparent;
+		top : 0px;
+		background-image :url(../img/bg0a.png);
+		background-size : cover;
+		z-index: 0;
+		transition : opacity 1s;
+	}
+	.fixBg1{
+		position : fixed;
+		width : 100%;
+		height : 100%;
+		background-color : transparent;
+		top : 0px;
+		background-image :url(../img/hbg1.svg);
+		z-index: 3;
+		transition : opacity 1s;
+	}
+	.fixBg0{
+		position : fixed;
+		width : 100%;
+		height : 100%;
+		background-color : transparent;
+		top : 0px;
+		background-image :url(../img/bg0.png);
+		background-size : cover;
+		z-index: 2;
+		transition : opacity 1s;
+	}
+
+
+.oneCover {
+	background-color : transparent;
+	z-index : 5;
+}
+
+.two {
+	background-color : #555;
+
+}
+
+.wrapper960{
+	width : 960px;
+	height : 100%;
+	margin-left : -480px;
+	left : 50%;
+	position : relative;
+	float : left;
+
+
+
+}
+
+.titleRight{
+	font-family : bebas;
+	color : lightgreen;
+	font-size : 320%;
+	float : right;
+	margin-top : 80px;
+	width : 400px;
+	text-align : right;
+	background-color : transparent;
+}
+
+.subtitleRight{
+	font-family : bebas;
+	color : white;
+	font-size : 54%;
+	float : right;
+	margin-top : 5px;
+	padding : 5px 20px;
+	background-color : lightgreen;
+}
+
+
+	.emblem2{
+		width : 480px;
+		float : left;
+		position: relative;
+		margin-top : 80px;
+
+	}
+
+
+.dataRight{
+	font-family : bebas;
+	font-size : 180%;
+	position : relative;
+	float : right;
+	color : white;
+	width : 100%;
+	text-align: right;
+	margin-top : 24px;
+}
+
+.subdataRight{
+	font-family : sans-serif;
+	font-weight : 300;
+	font-size : 80%;
+	position : relative;
+	float : right;
+	color : red;
+	text-align: right;
+
+
+		animation-name: blink;
+		animation-duration:2s;
+		animation-iteration-count : infinite;
+		animation-timing-function : linear;
+}
+
+.wrapper480{
+	width : 460px;
+	position : relative;
+	float : right;
+}
+
+
+.three{
+	background-color:rgba(49, 225, 0, 0.5);
+
+
+
+}
+
+.homeTopBlack{
+	width : 100%;
+	z-index : 5;
+	position : relative;
+	margin-bottom : 0px;
+	padding-bottom: 0px;
+	bottom : 0px;
+	float : left;
+}
+
+.homeBottomBlack{
+	width : 100%;
+	z-index : 5;
+	position : relative;
+	margin-bottom : 0px;
+	background-color:rgba(49, 225, 0, 0.5);
+	padding-bottom: 0px;
+	bottom : 0px;
+	float : left;
+}
+
+.homeBottomGrey{
+	width : 100%;
+	z-index : 5;
+	position : relative;
+	margin-bottom : 0px;
+	background-color: #333;
+	padding-bottom: 0px;
+	bottom : 0px;
+	float : left;
+}
+
+
+.footer {
+	width : 100%;
+	position : relative;
+	float : left;
+	background-color : #333;
+	height : 200px;
+	z-index : 10;
+
+}
+
+.four {
+	background-color : #E0E0E0;
+}
