@@ -29,6 +29,13 @@ body {
 .two {
   background: #ccc; }
   
+.three {
+  background: #ccc; }
+  
+.four {
+  background: #ccc;
+  padding-top:4em; }
+  
  #navbar {
 	 position:fixed;
 	 top:0;
@@ -41,28 +48,64 @@ body {
 	 background:#D0D0D0;
  }
  
- nav
- {
+ nav {
 	 padding-left:50%;
 	 margin-left:-200px;
  }
  
- a
- {
+ a {
 	 text-decoration:none;
 	 color:#fff;
  }
  
- #navbar ul
- {
+ #navbar ul {
 	 width:400px;
 	display:inline;
  }
  
- #navbar li
- {
+ #navbar li {
 	list-style:none;
 	display:inline;
 	margin-right:2.5em;
+ }
+ 
+ #title h1 {
+	 font-size:3em;
+ }
+ 
+ .box {
+ 	padding-left:18vw;
+ 	box-sizing: border-box;
+ 	float:left;
+ 	margin-top:2em;
+ }
+ 
+ #boxImage {
+ 	width:400px;
+ 	float:left;
+ }
+ 
+ #boxImage img {
+ 	max-width:80%;
+ }
+ 
+ #boxText {
+ 	float:left;
+ 	margin-top:2.3em;
+ }
+ 
+ #boxText h1 {
+ 	font-size:5em;
+ 	margin:0;
+ }
+ 
+ #boxText h5 {
+ 	font-size:1.4em;
+ 	margin:0;
+ }
+ 
+ #boxText p {
+ 	margin:0;
+ 	font-size:0.8em;
  }
 /*# sourceMappingURL=style.css.map */
